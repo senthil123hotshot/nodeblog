@@ -15,6 +15,8 @@ router.get('/show/:id', function(req, res, next) {
 	});
 });
 
+
+
 router.get('/add', function(req, res, next) {
 	var categories = db.get('categories');
 
